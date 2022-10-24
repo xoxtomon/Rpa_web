@@ -8,8 +8,7 @@ function Number(props) {
                 end={props.end}
                 duration={0.75}
                 suffix="%"
-                enableScrollSpy={false}
-                delay={15} />
+                enableScrollSpy={false} />
         </div>
     );
 }

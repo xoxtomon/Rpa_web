@@ -6,9 +6,9 @@ import Footer from "./components/Footer.jsx";
 import Transition from "./components/Transition";
 import Card from "./components/Card";
 import Title from "./components/Title";
-import Robot from "./components/Robot";
 import Areas from "./components/Areas";
 import Numbers from "./components/Numbers";
+import Prueba from "./components/Prueba";
 
 function App() {
   const tit1 = "Soluciones disenadas con la tecnologia que más se adapte a ti";
@@ -40,6 +40,7 @@ function App() {
 
 
       <Transition bol={false} />
+      <Prueba />
       <div class="land-bg">
         <Footer />
       </div>

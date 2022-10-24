@@ -1,5 +1,6 @@
 import React from "react";
 import Number from "./Number";
+import VisibilitySensor from 'react-visibility-sensor';
 
 function Numbers(props) {
     return (
@@ -27,7 +28,14 @@ function Numbers(props) {
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="number cstm">
-                                    <Number end={70} />
+                                    <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                                        {({ isVisible }) => (
+                                            <div style={{ height: 100 }}>
+                                                {isVisible ? <Number end={70} /> : null}
+                                            </div>
+                                        )}
+                                    </VisibilitySensor>
+
                                 </div>
                                 <div class="card-title cstm fs-5">
                                     Reducción de costos
