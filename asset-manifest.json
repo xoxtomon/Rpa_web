@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rpa_web/static/css/main.34d91571.css",
-    "main.js": "/Rpa_web/static/js/main.a3c43aad.js",
+    "main.css": "/Rpa_web/static/css/main.52ef8ae0.css",
+    "main.js": "/Rpa_web/static/js/main.7b828168.js",
     "static/media/po_logo.png": "/Rpa_web/static/media/po_logo.f9c603a7fc89f1a9593b.png",
     "static/media/robot.svg": "/Rpa_web/static/media/robot.1b986c608977298c7823f3b90b248d59.svg",
     "static/media/irpa_logo.png": "/Rpa_web/static/media/irpa_logo.9c2b524c6fcccb233e07.png",
@@ -10,11 +10,11 @@
     "static/media/colToW.png": "/Rpa_web/static/media/colToW.5ce3d4149916d07ccbaa.png",
     "static/media/prueba.svg": "/Rpa_web/static/media/prueba.2cd4425d2412e700cefb4dbe0a442a86.svg",
     "index.html": "/Rpa_web/index.html",
-    "main.34d91571.css.map": "/Rpa_web/static/css/main.34d91571.css.map",
-    "main.a3c43aad.js.map": "/Rpa_web/static/js/main.a3c43aad.js.map"
+    "main.52ef8ae0.css.map": "/Rpa_web/static/css/main.52ef8ae0.css.map",
+    "main.7b828168.js.map": "/Rpa_web/static/js/main.7b828168.js.map"
   },
   "entrypoints": [
-    "static/css/main.34d91571.css",
-    "static/js/main.a3c43aad.js"
+    "static/css/main.52ef8ae0.css",
+    "static/js/main.7b828168.js"
   ]
 }
