@@ -11,3 +11,176 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.land-bg {
+  background-color: #2D70DF;
+}
+
+.land-bg-alt {
+  background-color: #EFEFEF;
+  filter: drop-shadow(0px 0px 5px rgba(223, 223, 223, 1));
+}
+
+.fonts.cstm-oswald {
+  font-family: 'Oswald', serif;
+  font-size: 4.5vw;
+  font-size: 9.5vh;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.fonts.cstm-staat {
+  font-family: 'Staatliches', serif;
+  font-size: 5vw;
+}
+
+.fonts.cstm-co {
+  font-family: 'Concert+One', serif;
+  font-size: 5vw;
+}
+
+.fonts.cstm-sora {
+  font-family: 'Sora', serif;
+  font-size: 4.5vw;
+  font-size: 9.5vh;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.fonts.cstm-sora-md {
+  font-family: 'Sora', serif;
+  font-size: 3.5vw;
+  font-weight: bolder;
+}
+
+.navbar.activeCustOut {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.navbar.activeCustIn {
+  background-color: #D7E4FA;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.jumbotron.custdims {
+  min-height: 50vh;
+}
+
+.img-fluid.custdims {
+  min-width: 100%;
+  max-height: 15vh;
+}
+
+.img-fluid.custdims.cTw {
+  filter: drop-shadow(0px 10px 1px rgba(223, 223, 223, 0.7));
+}
+
+.img-fluid.custdims.wTc {
+  filter: drop-shadow(0px -10px 1px rgba(223, 223, 223, 0.7));
+}
+
+.card-img-top.cstm {
+  padding-top: 5px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.row.cstm {
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+}
+
+.row.tit-cstm {
+  padding-top: 2.5vh;
+}
+
+.card.cstm {
+  background-color: #EFEFEF;
+}
+
+.number.cstm {
+  color: #2D70DF;
+  font-size: 10vh;
+  font-weight: 900;
+}
+
+@keyframes handMovementD {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-3deg);
+  }
+}
+
+.card-title.cstm {
+  font-family: 'Sora', serif;
+  font-weight: 600;
+}
+
+#brazoD {
+  transform-origin: 85% 11%;
+  animation: 1.5s ease-in-out infinite alternate running handMovementD;
+}
+
+@keyframes handMovementI {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-1deg);
+  }
+}
+
+#brazoI {
+  transform-origin: 85% 11%;
+  animation: 1.5s ease-in-out infinite alternate running handMovementI;
+}
+
+@keyframes torsoMovement {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(2%);
+  }
+}
+
+#torso {
+  transform-origin: 85% 11%;
+  animation: 1.5s ease-in-out infinite alternate running torsoMovement;
+}
+
+@keyframes headMovement {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(2%);
+  }
+}
+
+#cabeza {
+  transform-origin: 85% 11%;
+  animation: 1.5s ease-in-out infinite alternate running headMovement;
+}
+
+@keyframes antenaMovement {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-2deg);
+  }
+}
+
+#antena {
+  transform-origin: 85% 11%;
+  animation: 1.5s ease-in-out infinite alternate running antenaMovement;
+}
