@@ -7,8 +7,7 @@ function Number(props) {
             <CountUp
                 end={props.end}
                 duration={0.75}
-                suffix="%"
-                enableScrollSpy={false} />
+                suffix="%" />
         </div>
     );
 }

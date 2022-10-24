@@ -28,14 +28,11 @@ function Numbers(props) {
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="number cstm">
-                                    <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                                    <VisibilitySensor >
                                         {({ isVisible }) => (
-                                            <div style={{ height: 100 }}>
-                                                {isVisible ? <Number end={70} /> : null}
-                                            </div>
+                                            <p>{isVisible ? <Number end={70} /> : "0%"}</p>
                                         )}
                                     </VisibilitySensor>
-
                                 </div>
                                 <div class="card-title cstm fs-5">
                                     Reducción de costos
@@ -43,7 +40,11 @@ function Numbers(props) {
                             </div>
                             <div class="col">
                                 <div class="number cstm">
-                                    <Number end={90} />
+                                    <VisibilitySensor >
+                                        {({ isVisible }) => (
+                                            <p>{isVisible ? <Number end={90} /> : "0%"}</p>
+                                        )}
+                                    </VisibilitySensor>
                                 </div>
                                 <div class="card-title cstm fs-5">
                                     Reducción de procesos manuales
@@ -51,7 +52,11 @@ function Numbers(props) {
                             </div>
                             <div class="col">
                                 <div class="number cstm">
-                                    <Number end={50} />
+                                    <VisibilitySensor >
+                                        {({ isVisible }) => (
+                                            <p>{isVisible ? <Number end={65} /> : "0%"}</p>
+                                        )}
+                                    </VisibilitySensor>
                                 </div>
                                 <div class="card-title cstm fs-5">
                                     Aumento de productividad
