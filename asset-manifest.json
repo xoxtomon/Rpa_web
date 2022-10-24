@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rpa_web/static/css/main.34d91571.css",
-    "main.js": "/Rpa_web/static/js/main.cfa99ebd.js",
+    "main.js": "/Rpa_web/static/js/main.8b0f7b1a.js",
     "static/media/po_logo.png": "/Rpa_web/static/media/po_logo.f9c603a7fc89f1a9593b.png",
     "static/media/robot.svg": "/Rpa_web/static/media/robot.1b986c608977298c7823f3b90b248d59.svg",
     "static/media/irpa_logo.png": "/Rpa_web/static/media/irpa_logo.9c2b524c6fcccb233e07.png",
@@ -11,10 +11,10 @@
     "static/media/prueba.svg": "/Rpa_web/static/media/prueba.2cd4425d2412e700cefb4dbe0a442a86.svg",
     "index.html": "/Rpa_web/index.html",
     "main.34d91571.css.map": "/Rpa_web/static/css/main.34d91571.css.map",
-    "main.cfa99ebd.js.map": "/Rpa_web/static/js/main.cfa99ebd.js.map"
+    "main.8b0f7b1a.js.map": "/Rpa_web/static/js/main.8b0f7b1a.js.map"
   },
   "entrypoints": [
     "static/css/main.34d91571.css",
-    "static/js/main.cfa99ebd.js"
+    "static/js/main.8b0f7b1a.js"
   ]
 }
