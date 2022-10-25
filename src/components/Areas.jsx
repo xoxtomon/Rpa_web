@@ -14,7 +14,7 @@ function Areas() {
                 <div class="col"></div>
                 <div class="col-10">
                     {/* PRIMERA FILA */}
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="row row-cols-2 row-cols-md-3 g-4">
                         <div class="col">
                             {/* h-100 */}
                             <div class="card border-0 cstm h-100">
@@ -48,10 +48,7 @@ function Areas() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    {/* SEGUNDA FILA */}
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        {/* SEGUNDA FILA */}
                         <div class="col">
                             {/* h-100 */}
                             <div class="card border-0 cstm h-100">

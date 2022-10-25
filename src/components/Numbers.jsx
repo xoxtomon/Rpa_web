@@ -40,7 +40,7 @@ function Numbers(props) {
                             </div>
                             <div class="col">
                                 <div class="number cstm">
-                                    <VisibilitySensor >
+                                    <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <p>{isVisible ? <Number end={90} /> : "0%"}</p>
                                         )}
@@ -52,7 +52,7 @@ function Numbers(props) {
                             </div>
                             <div class="col">
                                 <div class="number cstm">
-                                    <VisibilitySensor >
+                                    <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <p>{isVisible ? <Number end={65} /> : "0%"}</p>
                                         )}
@@ -68,7 +68,7 @@ function Numbers(props) {
                     <div class="col"></div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
