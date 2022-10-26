@@ -21,6 +21,10 @@ code {
   filter: drop-shadow(0px 0px 5px rgba(223, 223, 223, 1));
 }
 
+.visual {
+  width: ;
+}
+
 .fonts.cstm-oswald {
   font-family: 'Oswald', serif;
   font-size: 4.5vw;
@@ -51,6 +55,13 @@ code {
   font-family: 'Sora', serif;
   font-size: 3.5vw;
   font-weight: bolder;
+}
+
+.text-bold.cstm-jumbo-bold {
+  font-weight: 500;
+}
+.text-bold.cstm-jumbo {
+  font-weight: 400;
 }
 
 .navbar.activeCustOut {

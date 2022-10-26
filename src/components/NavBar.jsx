@@ -30,10 +30,10 @@ function NavBar() {
                         <a class="nav-link active" aria-current="page" href="Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Tecnologías</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Indicadores</a>
                     </li>
                 </ul>
             </div>

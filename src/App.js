@@ -10,8 +10,8 @@ import Areas from "./components/Areas";
 import Numbers from "./components/Numbers";
 
 function App() {
-  const tit1 = "Soluciones disenadas con la tecnologia que más se adapte a ti";
-  const bod1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Aliquam faucibus purus in massa. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et.";
+  const tit1 = "Soluciones diseñadas con la tecnología que más se adapte a ti";
+  const bod1 = "Soluciones simples, especificas y sobre la herramienta que más se adapte a sus necesidades de negocio. Permítanos analizar, mejorar y automatizar sus procesos y tareas repetitivas con herramientas RPA modernas y actualidad.";
 
   const tit2 = "Impulsamos diferentes sectores de la industria AREAS DE ACCION"
   const bod2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Aliquam faucibus purus in massa. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et.";
@@ -30,12 +30,12 @@ function App() {
       <Card />
 
       <div class="land-bg-alt">
-        <Title title={"AREAS DE ACCIÓN"} body={""} />
+        <Title title={"ÁREAS DE ACCIÓN"} body={""} />
         <Areas />
       </div>
 
 
-      <Numbers title={"Esta podria ser tu compania"} body={""} end={1000} />
+      <Numbers title={"Esta podría ser tu compañia"} body={""} end={1000} />
 
 
       <Transition bol={false} />

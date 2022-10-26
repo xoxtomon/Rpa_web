@@ -19,7 +19,9 @@ function Card() {
                                 </container>
                                 <div class="card-body">
                                     <h5 class="card-title">ROCKETBOT</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="card-text">
+                                        Plataforma RPA que permite acelerar la transformación digital de su compañía. Optimice el ROI con licencias de accesibles para permitir la ejecución de procesos paralelos sin pagar extras.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +32,9 @@ function Card() {
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">SAP IRPA</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="card-text">
+                                        SAP IRPA, es una suite de automatización completa, donde los robots de software están diseñados para imitar a los humanos en procesos de negocio definibles y repetibles.  Enfocado principalmente a SAP ERP es una herramienta potente y de fácil adaptación.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +45,9 @@ function Card() {
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">POWER AUTOMATE</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="card-text">
+                                        Cree y administre flujos de escritorio en Windows, Ejecute y administre flujos de nube sobre la marcha, gestione todos los aspectos de sus automatizaciones desde un portal central, maneje flujos de nube en el centro de conectividad para trabajo en equipo.
+                                    </p>
                                 </div>
                             </div>
                         </div>

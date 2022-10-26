@@ -67,7 +67,7 @@ function Areas() {
                                     <img src={doc} class="card-img-top cstm" alt="..." />
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title cstm fs-4">Documentacion</h5>
+                                    <h5 class="card-title cstm fs-4">Documentación</h5>
                                 </div>
                             </div>
                         </div>
