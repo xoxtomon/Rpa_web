@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/prueba.svg";
+import { Link } from "react-scroll";
 import "../index.css";
 
 function NavBar() {
@@ -26,14 +27,61 @@ function NavBar() {
             </button>
             <div class="collapse navbar-collapse h6" id="navbarNavDropdown">
                 <ul class="navbar-nav nav-fill w-25">
-                    <li class="nav-item">
+                    {/* HOME */}
+                    <li class="nav-item text-start">
                         <a class="nav-link active" aria-current="page" href="Home">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tecnologías</a>
+                    {/* TECNOLOGÍAS */}
+                    <li class="nav-item text-start">
+                        <li className="nav-item">
+                            <Link
+                                href="#tecno"
+                                to="tecno"
+                                activeClass="active"
+                                className="nav-link text-start"
+                                spy={true}
+                                smooth={true}
+                                offset={10}
+                                duration={500}
+                            >
+                                Tecnologías
+                            </Link>
+                        </li>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Indicadores</a>
+
+                    {/* SECTORES */}
+                    <li class="nav-item text-start">
+                        <li className="nav-item">
+                            <Link
+                                href="#home"
+                                to="sect"
+                                activeClass="active"
+                                className="nav-link text-start"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}
+                            >
+                                Sectores
+                            </Link>
+                        </li>
+                    </li>
+                    {/* INDICADORES */}
+                    <li class="nav-item text-start">
+                    <li className="nav-item">
+                            <Link
+                                href="#home"
+                                to="indicadores"
+                                activeClass="active"
+                                className="nav-link text-start"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}
+                            >
+                                Indicadores
+                            </Link>
+                        </li>
                     </li>
                 </ul>
             </div>

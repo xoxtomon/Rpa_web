@@ -26,16 +26,20 @@ function App() {
       </div>
       <Transition bol={true} />
 
-      <Title title={tit1} body={bod1} />
-      <Card />
+      <div id="tecno">
+        <Title title={tit1} body={bod1} />
+        <Card />
+      </div>
 
-      <div class="land-bg-alt">
+      <div class="land-bg-alt" id="sect">
         <Title title={"ÁREAS DE ACCIÓN"} body={""} />
         <Areas />
       </div>
 
 
-      <Numbers title={"Esta podría ser tu compañia"} body={""} end={1000} />
+      <div id="indicadores">
+        <Numbers title={"Esta podría ser tu compañía"} body={""} end={1000} />
+      </div>
 
 
       <Transition bol={false} />
