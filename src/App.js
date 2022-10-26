@@ -24,9 +24,9 @@ function App() {
         <NavBar />
         <Jumbo />
       </div>
-      <Transition bol={true} />
 
       <div id="tecno">
+        <Transition bol={true} />
         <Title title={tit1} body={bod1} />
         <Card />
       </div>
