@@ -29,7 +29,7 @@ function NavBar() {
                 <ul class="navbar-nav nav-fill w-25">
                     {/* HOME */}
                     <li class="nav-item text-start">
-                        <a class="nav-link active" aria-current="page" href="Home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     {/* TECNOLOGÍAS */}
                     <li class="nav-item text-start">
