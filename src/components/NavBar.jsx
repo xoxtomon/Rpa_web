@@ -20,7 +20,7 @@ function NavBar() {
         <div class="container-fluid">
             <a class=" navbar-brand h1" href="#">
                 <img src={logo} alt={"Logo"} width="30" height="24" class="d-inline-block align-text-top" />
-                Mecasoft
+                BPAutomation
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@ function NavBar() {
                     </li>
                     {/* INDICADORES */}
                     <li class="nav-item text-start">
-                    <li className="nav-item">
+                        <li className="nav-item">
                             <Link
                                 href="#home"
                                 to="indicadores"

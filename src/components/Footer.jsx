@@ -10,7 +10,7 @@ function Footer() {
                     <div class="row">
                         <div class="col-sm-6 col-md-3 item text">
                             <h3>Encuentranos</h3>
-                            <p>C&M Consultants SAS</p>
+                            <p>BPAutomation SAS</p>
                             <p>CL 64N 4 90 AP 205 TO A</p>
                             <p>Santiago de Cali, VA 76001 - Colombia</p>
                         </div>
@@ -22,7 +22,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div class="col-md-6 item text">
-                            <h3>Mecasoft</h3>
+                            <h3>BPAutomation</h3>
                             <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
                         </div>
                         <div class="col item social">
@@ -32,7 +32,7 @@ function Footer() {
                             <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
                         </div>
                     </div>
-                    <p class="copyright">Mecasoft © 2023</p>
+                    <p class="copyright">BPAutomation © 2023</p>
                 </div>
             </footer>
         </div>
