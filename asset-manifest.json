@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rpa_web/static/css/main.dcae0714.css",
-    "main.js": "/Rpa_web/static/js/main.a6783711.js",
+    "main.js": "/Rpa_web/static/js/main.b06f8916.js",
     "static/media/visual2.png": "/Rpa_web/static/media/visual2.7debd195386e50cbf30f.png",
     "static/media/po_logo.png": "/Rpa_web/static/media/po_logo.f9c603a7fc89f1a9593b.png",
     "static/media/robot.svg": "/Rpa_web/static/media/robot.1b986c608977298c7823f3b90b248d59.svg",
@@ -12,10 +12,10 @@
     "static/media/prueba.svg": "/Rpa_web/static/media/prueba.2cd4425d2412e700cefb4dbe0a442a86.svg",
     "index.html": "/Rpa_web/index.html",
     "main.dcae0714.css.map": "/Rpa_web/static/css/main.dcae0714.css.map",
-    "main.a6783711.js.map": "/Rpa_web/static/js/main.a6783711.js.map"
+    "main.b06f8916.js.map": "/Rpa_web/static/js/main.b06f8916.js.map"
   },
   "entrypoints": [
     "static/css/main.dcae0714.css",
-    "static/js/main.a6783711.js"
+    "static/js/main.b06f8916.js"
   ]
 }
