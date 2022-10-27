@@ -7,7 +7,7 @@ function GoToTop() {
     const [gtt, setGTT] = useState(false)
     const showGTT = () => {
 
-        if (window.scrollY >= 0) {
+        if (window.scrollY <= 600) {
             console.log(window.scrollY);
             setGTT(true);
         } else {
@@ -18,15 +18,15 @@ function GoToTop() {
 
     return (
         <div class="btn-gtt">
-            <button type="button" class="btn btn-light btn-circle btn-circle-lg m-1 float-end">
+            <button type="button" class={gtt ? "btn trans border-0 btn-light btn-circle btn-circle-lg m-1 float-end" : "btn act border-0 btn-light btn-circle btn-circle-lg m-1 float-end"}>
                 <Link
                     to="top"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration={500}
-                    activeClass="active">
-                    <ion-icon name="arrow-up-sharp"></ion-icon>
+                >
+                    <ion-icon name="arrow-up"></ion-icon>
                 </Link>
             </button>
         </div>
