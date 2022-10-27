@@ -8,6 +8,7 @@ import Card from "./components/Card";
 import Title from "./components/Title";
 import Areas from "./components/Areas";
 import Numbers from "./components/Numbers";
+import GoToTop from "./components/GoToTop";
 
 function App() {
   const tit1 = "Soluciones diseñadas con la tecnología que más se adapte a ti";
@@ -19,17 +20,22 @@ function App() {
 
   return (
     <div className="bg-white">
+      <GoToTop />
 
-      <div className="land-bg">
+      <div className="land-bg" id="top">
         <NavBar />
         <Jumbo />
       </div>
+
+
 
       <div id="tecno">
         <Transition bol={true} />
         <Title title={tit1} body={bod1} />
         <Card />
       </div>
+
+
 
       <div class="land-bg-alt" id="sect">
         <Title title={"ÁREAS DE ACCIÓN"} body={""} />
