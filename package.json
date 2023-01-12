@@ -2,7 +2,7 @@
   "name": "rpa_web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://xoxtomon.github.io/Rpa_web",
+  "homepage": "http://pacificdev.co",
   "dependencies": {
     "@carefully-coded/react-text-gradient": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
