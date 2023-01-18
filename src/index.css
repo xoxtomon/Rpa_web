@@ -13,7 +13,24 @@ code {
 }
 
 .cstm-animation {
+  -webkit-animation: fadeIn 3s ease;
   animation: fadeIn 3s ease;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-opacity: 0;
+    -webkit-filter: blur(10px);
+  }
+
+  10% {
+    -webkit-opacity: 1;
+    -webkit-filter: brightness(1) blur(10px);
+  }
+
+  100% {
+    -webkit-opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
