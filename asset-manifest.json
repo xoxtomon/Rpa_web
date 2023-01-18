@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b604b041.css",
+    "main.css": "/static/css/main.dca003ca.css",
     "main.js": "/static/js/main.14871ce2.js",
     "static/media/jumbo.png": "/static/media/jumbo.b1a8438f325cb2334f9f.png",
     "static/media/po_logo.png": "/static/media/po_logo.f9c603a7fc89f1a9593b.png",
@@ -8,11 +8,11 @@
     "static/media/rb_logo.png": "/static/media/rb_logo.9179dc652060e656e993.png",
     "static/media/logo_dark.svg": "/static/media/logo_dark.374941d7b9df3c772b624c89abfdded6.svg",
     "index.html": "/index.html",
-    "main.b604b041.css.map": "/static/css/main.b604b041.css.map",
+    "main.dca003ca.css.map": "/static/css/main.dca003ca.css.map",
     "main.14871ce2.js.map": "/static/js/main.14871ce2.js.map"
   },
   "entrypoints": [
-    "static/css/main.b604b041.css",
+    "static/css/main.dca003ca.css",
     "static/js/main.14871ce2.js"
   ]
 }
