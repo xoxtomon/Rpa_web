@@ -12,7 +12,7 @@ function Footer() {
                             <h3>Encuentranos</h3>
                             <p>BPAutomation SAS</p>
                             <p>CL 64N 4 90 AP 205 TO A</p>
-                            <p>Santiago de Cali, VA 76001 - Colombia</p>
+                            <p>Santiago de Cali, VA 76001<br></br>Colombia</p>
                         </div>
                         <div class="col-sm-6 col-md-3 item">
                             <h3>Enlaces</h3>
@@ -22,8 +22,8 @@ function Footer() {
                             </ul>
                         </div>
                         <div class="col-md-6 item text">
-                            <h3>BPAutomation</h3>
-                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                            <h3>PacificDev</h3>
+                            <p>Estamos comprometidos a mejorar constantemente y a encontrar nuevas formas de aumentar la eficacia. Si usted es una empresa en busca de un socio que puede ayudarle a su empresa a optimizar las operaciones y aumentar la productividad somos la opción adecuada.</p>
                         </div>
                         <div class="col item social">
                             <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -32,7 +32,7 @@ function Footer() {
                             <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
                         </div>
                     </div>
-                    <p class="copyright">BPAutomation © 2023</p>
+                    <p class="copyright">PACIFICDEV © 2023</p>
                 </div>
             </footer>
         </div>

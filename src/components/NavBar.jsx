@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/prueba.svg";
+import logo from "../assets/logo_dark.svg";
 import { Link } from "react-scroll";
 import "../index.css";
 
@@ -20,7 +20,7 @@ function NavBar() {
         <div class="container-fluid">
             <a class=" navbar-brand h1" href="#">
                 <img src={logo} alt={"Logo"} width="30" height="24" class="d-inline-block align-text-top" />
-                BPAutomation
+                PacificDev
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

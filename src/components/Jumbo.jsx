@@ -1,8 +1,7 @@
 import React from "react";
-import Robot from "./Robot";
 import FancyText from '@carefully-coded/react-text-gradient';
 import "../index.css";
-import visuals from "../assets/visualRobot.png";
+import visuals from "../assets/jumbo.png";
 
 function Jumbo(props) {
     return <container class="container text-center ">
@@ -13,35 +12,48 @@ function Jumbo(props) {
                 Se puede cambiar a 8 y 4*/}
                 <div class="row align-items-center">
                     {/* Elemento IZQ*/}
-                    <div class="col-sm-6">
-                        {/*<div class="robot">
-                            <Robot />
-                        </div>*/}
-                        <div>
-                            <img src={visuals} class="img-fluid" style={{ width: 500 }} />
-                        </div>
+                    <div class="col-sm-4 pb-5">
+                        <img src={visuals} class="img-fluid" alt="Responsive image" />
                     </div>
                     {/* Elemento DER*/}
-                    <div class="col-sm-6">
-                        <h1 class="fonts cstm-oswald text-nowrap"></h1>
-                        <h1 class="fonts cstm-oswald text-nowrap">
-                            <FancyText
-                                gradient={{ from: '#112A54', to: '#112A54', type: 'linear' }}
-                                animateTo={{ from: '#EFEFEF', to: '#EFEFEF' }}
-                                animateDuration={5000}
-                            >
-                                + BENEFICIO <br />- COSTO
-                            </FancyText>
-                        </h1>
-                        <p class="fs-4 lead">
-                            <strong class="text-bold cstm-jumbo-bold">Ahorre tiempo, aumente la rentabilidad, elimine errores, participe del crecimiento de su compañía.</strong> <br />Estos y algunos otros beneficios son lo que puede obtener implementado RPA para la automatización de sus procesos de negocio.
-                        </p>
+                    <div class="col-sm-8">
+                        {/* Texto de titulo  */}
+                        <row class="row align-items-center">
+                            <p class="fonts cstm-poppins bold headline">
+                                <FancyText
+                                    gradient={{ from: '#112A54', to: '#112A54', type: 'linear' }}
+                                    animateTo={{ from: '#EFEFEF', to: '#EFEFEF' }}
+                                    animateDuration={5000}
+                                >
+                                    Automatización de calidad
+                                </FancyText>
+                            </p>
+                        </row>
+                        {/* Texto de abajo  responsive para que quede en bloque*/}
+                        <row class="row align-items-center">
+
+                            <div class="row justify-content-md-center">
+                                <div class="col col-lg-2">
+
+                                </div>
+                                <div class="col-lg-6 align-items-center">
+                                    <p class="text-justify fonts cstm-poppins regular white paragraph">
+                                        Somos una empresa joven dedicada a ofrecer soluciones de automatización eficientes y eficaces a nuestros clientes. Nuestra empresa está a la vanguardia del sector y somos capaces de ofrecer los resultados más óptimos para nuestros clientes.
+                                    </p>
+                                </div>
+                                <div class="col col-lg-2">
+
+                                </div>
+                            </div>
+
+
+                        </row>
                     </div>
                 </div>
             </div>
         </div>
 
-    </container>
+    </container >
 }
 
 export default Jumbo;
