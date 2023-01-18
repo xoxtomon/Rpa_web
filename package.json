@@ -2,7 +2,7 @@
   "name": "rpa_web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://xoxtomon.github.io/Rpa_web",
+  "homepage": "http://pacificdev.co",
   "dependencies": {
     "@carefully-coded/react-text-gradient": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,13 +13,13 @@
     "react": "^18.2.0",
     "react-countup": "^6.3.2",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.8",
     "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo pacificdev.co > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
