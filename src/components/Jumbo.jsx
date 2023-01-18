@@ -13,20 +13,21 @@ function Jumbo(props) {
                 <div class="row align-items-center">
                     {/* Elemento IZQ*/}
                     <div class="col-sm-4 pb-5">
-                        <img src={visuals} class="img-fluid" alt="Responsive image" />
+                        <img src={visuals} class="img-fluid cstm-animation" alt="Responsive image" />
                     </div>
                     {/* Elemento DER*/}
                     <div class="col-sm-8">
                         {/* Texto de titulo  */}
                         <row class="row align-items-center">
-                            <p class="fonts cstm-poppins bold headline">
-                                <FancyText
+                            <p class="fonts cstm-poppins bold headline white">
+                                {/*<FancyText
                                     gradient={{ from: '#112A54', to: '#112A54', type: 'linear' }}
                                     animateTo={{ from: '#EFEFEF', to: '#EFEFEF' }}
                                     animateDuration={5000}
                                 >
-                                    Automatización de calidad
-                                </FancyText>
+                                    
+            </FancyText>*/}
+                                Automatización de calidad
                             </p>
                         </row>
                         {/* Texto de abajo  responsive para que quede en bloque*/}

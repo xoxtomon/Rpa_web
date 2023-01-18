@@ -12,6 +12,22 @@ code {
     monospace;
 }
 
+.cstm-animation {
+  animation: fadeIn 3s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+
+  10% {
+    opacity: 1;
+    filter: brightness(1) blur(10px);
+  }
+}
+
 .land-bg {
   background-color: #2e365e;
 }
@@ -34,7 +50,7 @@ code {
 }
 
 .fonts.cstm-poppins.headline {
-  font-size: 5vh;
+  font-size: 4.5vh;
 }
 
 
