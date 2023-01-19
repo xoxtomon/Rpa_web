@@ -13,8 +13,10 @@ code {
 }
 
 .cstm-animation {
-  -webkit-animation: fadeIn 3s ease;
+  -webkit-animation: fadeIn 1.5s ease;
   animation: fadeIn 3s ease;
+  -webkit-animation-delay: 1s;
+  animation-delay: 0s;
 }
 
 @-webkit-keyframes fadeIn {
