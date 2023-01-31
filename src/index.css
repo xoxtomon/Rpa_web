@@ -158,11 +158,3 @@ code {
   min-width: 100%;
   max-height: 15vh;
 }
-
-.img-fluid.custdims.cTw {
-  filter: drop-shadow(0px 10px 1px rgba(223, 223, 223, 0.7));
-}
-
-.img-fluid.custdims.wTc {
-  filter: drop-shadow(0px -10px 1px rgba(223, 223, 223, 0.7));
-}

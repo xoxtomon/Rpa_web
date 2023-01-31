@@ -1,4 +1,5 @@
 import React from "react";
+import "./transition.css"
 
 function Transition(props) {
     const colToW = props.bol;
