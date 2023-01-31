@@ -3,7 +3,7 @@ import rocket from "../assets/rb_logo.png";
 import irpa from "../assets/irpa_logo.png";
 import po from "../assets/po_logo.png";
 import "../index.css";
-import "./Card.css"
+import "./card.css"
 
 function Card() {
 
