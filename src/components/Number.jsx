@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from 'react-countup';
+import "./number.css"
 
 function Number(props) {
     return (

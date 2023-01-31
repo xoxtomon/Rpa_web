@@ -1,6 +1,7 @@
 import React from "react";
 import Number from "./Number";
 import VisibilitySensor from 'react-visibility-sensor';
+import "./numbers.css"
 
 function Numbers(props) {
     return (
