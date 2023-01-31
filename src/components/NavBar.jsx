@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/logo_dark.svg";
 import { Link } from "react-scroll";
 import "../index.css";
+import "./navBar.css"
 
 function NavBar() {
 

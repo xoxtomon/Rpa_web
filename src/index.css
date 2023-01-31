@@ -77,16 +77,6 @@ code {
   font-weight: 400;
 }
 
-.navbar.activeCustOut {
-  background-color: transparent !important;
-  transition: background-color 0.5s ease-in-out;
-}
-
-.navbar.activeCustIn {
-  background-color: #D7E4FA;
-  transition: background-color 0.5s ease-in-out;
-}
-
 .img-fluid.custdims {
   min-width: 100%;
   max-height: 15vh;
