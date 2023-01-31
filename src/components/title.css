@@ -1,0 +1,14 @@
+.row.cstm {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.row.tit-cstm {
+    padding-top: 2.5vh;
+}
+
+.fonts.cstm-sora-md {
+    font-family: 'Sora', serif;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
