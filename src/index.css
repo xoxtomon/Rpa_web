@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .land-bg {
   background-color: #2e365e;
 }
@@ -19,65 +14,4 @@ code {
 .land-bg-alt {
   background-color: #EFEFEF;
   filter: drop-shadow(0px 0px 5px rgba(223, 223, 223, 1));
-}
-
-.cstm-wrap {
-  white-space: normal;
-}
-
-.cstm-padding-col {
-  padding-top: 15vh;
-}
-
-
-.fonts.cstm-poppins.nowrap {
-  white-space: nowrap;
-}
-
-.fonts.cstm-poppins.extralight {
-  font-weight: 200;
-}
-
-.fonts.cstm-poppins.regular.italic {
-  font-style: italic;
-}
-
-.fonts.cstm-oswald {
-  font-family: 'Oswald', serif;
-  font-size: 4.5vw;
-  font-size: 9.5vh;
-  font-weight: bolder;
-  white-space: nowrap;
-}
-
-
-.fonts.cstm-staat {
-  font-family: 'Staatliches', serif;
-  font-size: 5vw;
-}
-
-.fonts.cstm-co {
-  font-family: 'Concert+One', serif;
-  font-size: 5vw;
-}
-
-.fonts.cstm-sora {
-  font-family: 'Sora', serif;
-  font-size: 4.5vw;
-  font-size: 9.5vh;
-  font-weight: bolder;
-  white-space: nowrap;
-}
-
-.text-bold.cstm-jumbo-bold {
-  font-weight: 500;
-}
-
-.text-bold.cstm-jumbo {
-  font-weight: 400;
-}
-
-.img-fluid.custdims {
-  min-width: 100%;
-  max-height: 15vh;
 }
