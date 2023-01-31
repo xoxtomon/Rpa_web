@@ -3,6 +3,7 @@ import rocket from "../assets/rb_logo.png";
 import irpa from "../assets/irpa_logo.png";
 import po from "../assets/po_logo.png";
 import "../index.css";
+import "./Card.css"
 
 function Card() {
 
@@ -18,7 +19,7 @@ function Card() {
                                     <img src={rocket} class="card-img-top cstm" alt="..." />
                                 </container>
                                 <div class="card-body">
-                                    <h5 class="card-title">ROCKETBOT</h5>
+                                    <h5 class="card-title cstm">ROCKETBOT</h5>
                                     <p class="card-text">
                                         Plataforma RPA que permite acelerar la transformación digital de su compañía. Optimice el ROI con licencias de accesibles para permitir la ejecución de procesos paralelos sin pagar extras.
                                     </p>
@@ -31,7 +32,7 @@ function Card() {
                                     <img src={irpa} class="card-img-top cstm" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">SAP IRPA</h5>
+                                    <h5 class="card-title cstm">SAP IRPA</h5>
                                     <p class="card-text">
                                         SAP IRPA, es una suite de automatización completa, donde los robots de software están diseñados para imitar a los humanos en procesos de negocio definibles y repetibles.  Enfocado principalmente a SAP ERP es una herramienta potente y de fácil adaptación.
                                     </p>
@@ -44,7 +45,7 @@ function Card() {
                                     <img src={po} class="card-img-top cstm" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">POWER AUTOMATE</h5>
+                                    <h5 class="card-title cstm">POWER AUTOMATE</h5>
                                     <p class="card-text">
                                         Cree y administre flujos de escritorio en Windows, Ejecute y administre flujos de nube sobre la marcha, gestione todos los aspectos de sus automatizaciones desde un portal central, maneje flujos de nube en el centro de conectividad para trabajo en equipo.
                                     </p>

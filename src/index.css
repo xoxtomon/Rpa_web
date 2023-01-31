@@ -173,23 +173,8 @@ code {
   filter: drop-shadow(0px -10px 1px rgba(223, 223, 223, 0.7));
 }
 
-.card-img-top.cstm {
-  padding-top: 5px;
-  width: 100px;
-  border-radius: 8px;
-}
-
-.row.cstm {
-  padding-top: 2.5vh;
-  padding-bottom: 2.5vh;
-}
-
 .row.tit-cstm {
   padding-top: 2.5vh;
-}
-
-.card.cstm {
-  background-color: #EFEFEF;
 }
 
 .number.cstm {
@@ -197,11 +182,6 @@ code {
   font-family: "Sora", serif;
   font-size: 10vh;
   font-weight: 900;
-}
-
-.card-title.cstm {
-  font-family: 'Sora', serif;
-  font-weight: 600;
 }
 
 .btn.trans {

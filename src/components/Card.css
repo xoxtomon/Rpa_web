@@ -1,0 +1,19 @@
+.card.cstm {
+    background-color: #EFEFEF;
+}
+
+.card-img-top.cstm {
+    padding-top: 5px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.card-title.cstm {
+    font-family: 'Sora', serif;
+    font-weight: 600;
+}
+
+.row.cstm {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
