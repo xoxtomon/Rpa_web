@@ -1,0 +1,66 @@
+.jumbotron.custdims {
+    min-height: 50vh;
+}
+
+.cstm-animation {
+    -webkit-animation: fadeIn 1.5s ease;
+    animation: fadeIn 3s ease;
+    -webkit-animation-delay: 1s;
+    animation-delay: 0s;
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      -webkit-opacity: 0;
+      -webkit-filter: blur(10px);
+    }
+  
+    10% {
+      -webkit-opacity: 1;
+      -webkit-filter: brightness(1) blur(10px);
+    }
+  
+    100% {
+      -webkit-opacity: 1;
+    }
+}
+  
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      filter: blur(10px);
+    }
+  
+    10% {
+      opacity: 1;
+      filter: brightness(1) blur(10px);
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+
+.fonts.cstm-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+  
+.fonts.cstm-poppins.headline {
+    font-size: 4.5vh;
+}
+
+.fonts.cstm-poppins.white {
+    color: #ffff;
+}
+
+.fonts.cstm-poppins.bold {
+    font-weight: 700;
+}
+
+.fonts.cstm-poppins.regular {
+    font-weight: 400;
+}
+  
+.fonts.cstm-poppins.paragraph {
+    font-size: 2.5vh;
+}

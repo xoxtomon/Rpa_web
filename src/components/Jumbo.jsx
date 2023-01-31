@@ -1,12 +1,13 @@
 import React from "react";
 import FancyText from '@carefully-coded/react-text-gradient';
 import "../index.css";
+import "./jumbo.css"
 import visuals from "../assets/jumbo.png";
 
 function Jumbo(props) {
     return <container class="container text-center ">
 
-        <div class="jumbotron custdims jumbotron-fluid ">
+        <div class="jumbotron custdims jumbotron-fluid">
             <div class="container-fluid">
                 {/*Dos elementos con igual tamano
                 Se puede cambiar a 8 y 4*/}
