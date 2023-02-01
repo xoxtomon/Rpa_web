@@ -4,11 +4,12 @@ import Jumbo from './components/Jumbo.jsx';
 import NavBar from './components/NavBar.jsx';
 import Footer from "./components/Footer.jsx";
 import Transition from "./components/Transition";
-import Card from "./components/Card";
-import Title from "./components/Title";
-import Areas from "./components/Areas";
-import Numbers from "./components/Numbers";
-import GoToTop from "./components/GoToTop";
+import Card from "./components/Card.jsx";
+import Title from "./components/Title.jsx";
+import Areas from "./components/Areas.jsx";
+import Numbers from "./components/Numbers.jsx";
+import GoToTop from "./components/GoToTop.jsx";
+import Wave from "./components/Wave.jsx";
 
 function App() {
   const tit1 = "Soluciones diseñadas con la tecnología que más se adapte a ti";
@@ -41,14 +42,15 @@ function App() {
         <Title title={"ÁREAS DE ACCIÓN"} body={""} />
         <Areas />
       </div>
-
+      
 
       <div id="indicadores">
         <Numbers title={"Esta podría ser tu compañía"} body={""} end={1000} />
       </div>
 
 
-      <Transition bol={false} />
+      <Wave />
+      {/*<Transition bol={false} />*/}
       <div class="land-bg">
         <Footer />
       </div>
