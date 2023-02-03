@@ -31,7 +31,10 @@ function App() {
 
 
       <div id="tecno">
-        <Transition bol={true} />
+        <div className="trans-dims">
+          <Wave orientation={true} />
+        </div>
+        {/*<Transition bol={true} />*/}
         <Title title={tit1} body={bod1} />
         <Card />
       </div>
@@ -42,14 +45,16 @@ function App() {
         <Title title={"ÁREAS DE ACCIÓN"} body={""} />
         <Areas />
       </div>
-      
+
 
       <div id="indicadores">
         <Numbers title={"Esta podría ser tu compañía"} body={""} end={1000} />
       </div>
 
 
-      <Wave />
+      <div className="trans-dims">
+        <Wave orientation={false} />
+      </div>
       {/*<Transition bol={false} />*/}
       <div class="land-bg">
         <Footer />
